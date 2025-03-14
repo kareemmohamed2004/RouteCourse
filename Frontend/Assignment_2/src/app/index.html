@@ -1,0 +1,78 @@
+<html>
+    <body>
+        <form>
+            <fieldset style="background-color:brown;">
+                <legend style="background-color: rgb(80, 126, 211);">
+                    <b>Personal Data</b>
+                </legend>
+                <br>
+                <fieldset style="background-color:orange;">
+                    <legend style="background-color:cornflowerblue; width: 80px; height: 90px;display: grid;place-items: center;">
+                        <b>Your Name</b>
+                    </legend>
+                    <table>
+                        <tr>
+                            <td>First Name</td>
+                            <td>:</td>
+                            <td><input name="firstName" type="text" placeholder="ex.ahmed"></td>
+                        </tr>
+                        <tr>
+                            <td>Second Name</td>
+                            <td>:</td>
+                            <td><input name="secondName" type="text" placeholder="ex.bahnasy"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br>
+                <br>
+                <br>
+                <table>
+                    <tr>
+                        <td><b>Your Phone</b></td>
+                        <td>:</td>
+                        <td><input name="phone" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Email</b></td>
+                        <td>:</td>
+                        <td><input name="email" type="email"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Password</b></td>
+                        <td>:</td>
+                        <td><input name="password" type="password"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Re-Password</b></td>
+                        <td>:</td>
+                        <td><input name="phone" type="password"></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <input type="radio" id="male" name="gender" value="1">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="2">
+                <label for="female">Female</label><br>
+                <br>
+                <br>
+                <select>
+                    <optgroup label="Group 1">
+                        <option value="1.1" selected>Option 1.1</option>
+                    </optgroup>
+                    <optgroup label="Group 2">
+                        <option value="2.1" selected>Option 2.1</option>
+                        <option value="2.2" selected>Option 2.2</option>
+                    </optgroup>
+                    <optgroup label="Group 3" disabled>
+                        <option value="3.1" selected>Option 3.1</option>
+                        <option value="3.2" selected>Option 3.2</option>
+                        <option value="3.3" selected>Option 3.3</option>
+                    </optgroup>
+                </select>
+                <br>
+                <button style="color: aliceblue; background-image: linear-gradient(180deg, rgb(193, 193, 181),rgb(46, 34, 34));">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
