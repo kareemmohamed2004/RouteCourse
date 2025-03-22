@@ -1,0 +1,117 @@
+.ourLocationOuterContainer{
+    background-color:rgb(249, 248, 248)
+}
+
+.innerContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.innerContainer > .inlineDiv{
+    width: 45%;
+    display: inline-block;
+}
+
+.whoWeAreInfo{
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 5%;
+    padding-top: 15px;
+    font-style: normal;
+    color:rgb(110, 132, 132)
+}
+
+.whoWeAreInfo p, .whoWeAreLocation p{
+    font-style: normal;
+    font-size: medium;
+    padding-bottom: 5%;
+
+}
+
+.whoWeAreLocation h1{
+    padding-top: 70px;
+}
+
+.whoWeAreInfo h1, .whoWeAreLocation h1{
+    color: black;
+    font-style: normal;
+}
+
+.whoWeAreLocation h1{
+    font-size: x-large;
+}
+
+.ourLocationMainImg{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.whoWeAreMainImg, .ourLocationMainImg{
+    width: 100%;
+}
+
+
+.whoWeAreIcons{
+    width: 40px;
+    border-style:solid;
+    border-color: rgb(218, 225, 232);
+    border-radius: 50%;
+}
+
+.whoWeAreIconsParagraph{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    font-size: larger;
+}
+
+.whoWeAreIcons,.whoWeAreIconsParagraph{
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+    vertical-align: top;
+    padding-left: 0px;
+}
+
+.whoWeAreLocation{
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 5%;
+    padding-top: 100px;
+    font-style: normal;
+    font-size: x-large;
+    color:rgb(110, 132, 132)
+}
+
+.whoWeAreLocation p{
+    font-size: large;
+}
+
+.ourPaking{
+    margin-bottom: 60px;
+}
+
+.ourPaking h1, .ourPaking p{
+    vertical-align: top;
+    text-align: center;
+}
+
+.ourPakingItem{
+    width: 30%;
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.ourPakingItem img{
+    width: 100%;
+}
+
+.ourPakingItem h2, .ourPakingItem p{
+    text-align: center;
+}
