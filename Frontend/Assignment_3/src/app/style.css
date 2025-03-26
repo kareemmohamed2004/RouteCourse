@@ -115,3 +115,202 @@ ul{
 .ourPakingItem h2, .ourPakingItem p{
     text-align: center;
 }
+
+.navBarContainer{
+    background-color: white;
+    border-color: black;
+    border-bottom: 2px solid rgb(245, 241, 241);
+}
+
+.navBarInnerContainer{
+      width: 49%;
+      display: inline-block;
+}
+
+.navBarImg{
+    width: 25%;
+    padding-left: 20%;
+    padding-bottom: 5px;
+}
+
+.navBarItems{
+    float: left;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    color: rgb(97, 94, 94);
+    font-size: larger;
+}
+
+.navBarItems > span{
+    margin-right: 20px;
+}
+
+.welcomeContainer{
+    background-image: url(../assets/images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.welcomeInnerContainer{
+    color: white;
+    text-align: center;
+    padding-top: 125px;
+    font-size: xx-large;
+    font-style: normal;
+}
+
+.welcomeInnerContainer > button{
+    width: 130px;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    font-size: medium;
+}
+
+.learnMore{
+    background-color:rgb(97, 175, 201);
+    border-style: hidden;
+}
+
+.contactUS{
+    background-color: transparent;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+.contactInformation{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contactInformationIcons{
+    width: 37px;
+    border-style:hidden;
+    border-color: rgb(218, 225, 232);
+    border-radius: 50%;
+    background-color: rgb(174, 173, 173);
+    margin-bottom: 20px;
+}
+
+.contactInformationParagraph{
+    color:rgb(98, 95, 95);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    padding-top: -20px;
+    font-size: larger;
+    margin-top: 8px;
+}
+
+.contactInformationMap{
+    padding-top: 20px;
+    padding-left: 75px;
+}
+
+.collectedInfoContainer{
+    background-color:rgb(73, 69, 69);
+    margin-top: -74px;
+}
+
+.collectedInfoInnerContainer{
+    padding: 3%;
+}
+
+.collectedInfoSectionContainer{
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    padding-left: 35px;
+}
+
+.collectedInfoSectionContainer > h2{
+    color: white;
+}
+
+.collectedInfoSectionContainer > p, .collectedInfoSectionContainer > li{
+    text-align: left;
+    vertical-align: top;
+    color:rgb(170, 173, 173);
+}
+
+
+
+.arrow-list {
+    list-style: none;
+    color: rgb(170, 173, 173);
+  }
+  
+  .arrow-list li::before {
+    content: attr(data-bullet);
+    margin-right: 0.5em;
+    color: rgb(170, 173, 173); /* Optional styling */
+  }
+
+  .arrow-list > li{
+    font-size: large;
+  }
+
+  .listItemSeparatorLine{
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(219, 217, 217,.25);
+
+  }
+
+  .contactDetailsSection{
+    color: rgb(170, 173, 173);
+    padding-left: 0;
+    margin-top: -10px;
+  }
+
+  .contactDetailsSectionBackground{
+    background-image: url(../assets/images/contact-details-map.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .contactDetailsSectionIcons{
+    width: 40px;
+    margin-left: -10px;
+  }
+
+  .contactDetailsSectionParagraph{
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+footer{
+    background-color: rgb(49, 48, 48);
+    color: rgb(170, 173, 173);
+}
+
+.footerImg{
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 4.5%;
+}
+
+.footerCopyRights{
+    text-align: center;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+
+.footerSocialMediaIconsContainer{
+    margin-left: 43.2%;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.footerSocialMediaIcons{
+    width: 40px;
+    background-color: rgb(74, 71, 71);
+    border-radius: 50%;
+    margin-right: 5px;
+}
