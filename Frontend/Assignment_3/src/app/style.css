@@ -303,14 +303,15 @@ footer{
 }
 
 .footerSocialMediaIconsContainer{
-    margin-left: 43.2%;
     margin-top: 30px;
     padding-bottom: 50px;
+    width: fit-content;
+    margin: auto;
 }
 
 .footerSocialMediaIcons{
     width: 40px;
-    background-color: rgb(74, 71, 71);
+    background-color: rgb(68, 67, 67);
     border-radius: 50%;
     margin-right: 5px;
 }
