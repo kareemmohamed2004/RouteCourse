@@ -1,0 +1,545 @@
+body{
+    margin: 0;
+}
+
+.grid-container{
+    display: grid;
+    gap: 0 0;
+}
+
+.cell-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.cell-1 .info{
+    width: 32%;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(159, 163, 167);
+    text-transform: uppercase;
+}
+
+.cell-1 .info .learn-more{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(159, 163, 167);
+}
+
+.cell-1 img{
+    width: 249px;
+    margin-top: 40px;
+    align-self: flex-end;
+}
+
+.cell-1 .info h3{
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    margin-top: 3%;
+}
+
+.cell-2{
+    background-color: #F7F8F9;
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cell-2 .info{
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    
+    color: rgb(159, 163, 167);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 50%;
+}
+
+.cell-2 .info h1{
+    font-family: Arvo, sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cell-2 .info a{
+    color: #27b9c2;
+    text-decoration: underline;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.cell-3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    background-color: #F05638;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cell-3 img{
+    width: 319px;
+}
+
+.cell-3 h3{
+    font-family: Arvo, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: #fffbfb;
+    font-weight: 700;
+    max-width: 230px;
+}
+
+.cell-3 a{
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 200, 10);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.cell-4{
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 68px;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.cell-4 .block-1{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.cell-4 .block-1 div{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(159, 163, 167);
+}
+
+.cell-4 .block-1 h3{
+    font-family: Arvo, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+}
+
+.cell-4 .block-1 img{
+    width: 450px;
+    position: relative;
+    left: -160%;
+    margin-top: 20px;
+}
+
+.cell-4 .block-2{
+    width: 40%;
+}
+
+.cell-4 .block-2 div{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(159, 163, 167);
+}
+
+.cell-4 .block-2 a{
+    text-decoration: none;
+    color: rgb(39, 185, 194);
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cell-5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #8F76BC;
+
+    padding: 30px 5% 70px;
+    overflow: hidden;
+}
+
+.cell-5 .block-1 .circle{
+    border-radius: 50%;
+    background-color: #8166B0;
+    width: 373px;
+    height: 373px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cell-5 .block-1 .circle img{
+    width: 60%;
+    position: relative;
+    left: -8px;
+    margin-top: 20px;
+}
+
+.cell-5 .block-1 .circle .first-text{
+
+    padding: 2px 13px 1px 30px;
+
+    background-color: #8B72B6;
+    background-image: url(https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42d5a5ed9663e707e7d_Shape.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 11px 50%;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 10px;
+    border-radius: 25%;
+}
+
+.cell-5 .block-1 .circle .second-text{
+    font-family: Montserrat, sans-serif;
+    color: #9fa3a7;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.cell-5 .block-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.cell-5 .block-2 h2{
+    font-family: Arvo, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.cell-5 .block-2 div{
+    width: 80%;
+    max-width: 290px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+
+}
+
+.cell-5 .block-2 a{
+    margin-top: 30px;
+    padding: 14px 28px;
+    border-radius: 50px;
+    background-color: #ffc80a;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+}
+
+.cell-6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-6 img{
+    width: 248px;
+    position: relative;
+    left: -7%;
+}
+
+.cell-6 h3{
+    font-family: Arvo, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.cell-6 a{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    width: 54%;
+    text-align: center;
+    color: #27b9c2;
+}
+
+.cell-7{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+    background-color: #93B6B7;
+    background-image: url(https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42d5a5ed97dab707e7e_UX.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 60%;
+}
+
+
+.cell-7 .pinned-text{
+    border-radius: 5px;
+    background-color: #FA684F;
+    color: white;
+    width: fit-content;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 20px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.cell-7 .first-text{
+    text-align: center;
+    width: 50%;
+    max-width: 280px;
+    margin: auto;
+    padding-top: 31px;
+    padding-bottom: 31px;
+
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+
+    color: white;
+}
+
+.cell-7 img{
+    width: 655px;
+    position: relative;
+    left: 7%;
+}
+
+.cell-8{
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #38D5F4;
+}
+
+.cell-8 .circle{
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    background-color: #35CFED;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+
+}
+
+.cell-8 .circle img{
+    width: 43px;
+}
+
+.cell-9{
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cell-9 .pinned-text{
+
+    border-radius: 5px;
+    background-color: #7BC424;
+    color: white;
+    width: fit-content;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 8px;
+    line-height: 20px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+.cell-9 h3{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+
+    color: black;
+    width: 60%;
+}
+
+.cell-10{
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+}
+
+.cell-10 img{
+    width: 271px;
+
+    position: relative;
+    left: -15%;
+}
+
+.cell-10 h3{
+    width: 34%;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Arvo, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+}
