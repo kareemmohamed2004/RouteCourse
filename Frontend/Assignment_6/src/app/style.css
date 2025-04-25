@@ -4,6 +4,8 @@ body{
 
 .grid-container{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 50vh 50vh 50vh 25vh; */
     gap: 0 0;
 }
 
@@ -22,7 +24,7 @@ body{
 
 .cell-1 .info{
     width: 32%;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 20px;
@@ -31,7 +33,7 @@ body{
 }
 
 .cell-1 .info .learn-more{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 26px;
@@ -46,9 +48,10 @@ body{
 }
 
 .cell-1 .info h3{
-    font-family: Arvo, sans-serif;
-    font-size: 22px;
+    font-family: "Arvo", serif;
     font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
     line-height: 32px;
     color: rgb(51, 51, 51);
     margin-top: 3%;
@@ -65,10 +68,11 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 .cell-2 .info{
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 20px;
@@ -81,18 +85,17 @@ body{
     align-items: center;
     text-align: center;
 
-    width: 50%;
+    width: 70%;
 }
 
 .cell-2 .info h1{
-    font-family: Arvo, sans-serif;
+    font-family: "Arvo", serif;
     font-style: normal;
     font-size: 48px;
     font-weight: 400;
     line-height: 60px;
     color: rgb(51, 51, 51);
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 .cell-2 .info a{
@@ -126,7 +129,7 @@ body{
 }
 
 .cell-3 h3{
-    font-family: Arvo, sans-serif;
+    font-family: "Arvo", serif;
     font-style: normal;
     font-size: 22px;
     color: #fffbfb;
@@ -164,12 +167,12 @@ body{
     width: 180px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
 .cell-4 .block-1 div{
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-size: 12px;
     line-height: 20px;
@@ -179,7 +182,7 @@ body{
 }
 
 .cell-4 .block-1 h3{
-    font-family: Arvo, sans-serif;
+    font-family: "Arvo", serif;
     font-style: normal;
     font-size: 22px;
     font-weight: 400;
@@ -188,9 +191,8 @@ body{
 }
 
 .cell-4 .block-1 img{
-    width: 450px;
-    position: relative;
-    left: -160%;
+    width: 490px;
+    align-self: flex-end;
     margin-top: 20px;
 }
 
@@ -276,7 +278,7 @@ body{
 }
 
 .cell-5 .block-1 .circle .second-text{
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #9fa3a7;
     font-size: 12px;
     line-height: 20px;
@@ -296,7 +298,7 @@ body{
 
 
 .cell-5 .block-2 h2{
-    font-family: Arvo, sans-serif;
+    font-family: "Arvo", serif;
     font-weight: bold;
     font-size: 32px;
     line-height: 36px;
@@ -348,7 +350,7 @@ body{
 }
 
 .cell-6 h3{
-    font-family: Arvo, sans-serif;
+    font-family: "Arvo", serif;
     font-style: normal;
     font-size: 22px;
     font-weight: 400;
@@ -377,7 +379,12 @@ body{
     background-image: url(https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42d5a5ed97dab707e7e_UX.png);
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: 60%;
+    background-size: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 
@@ -401,26 +408,27 @@ body{
     left: 30px;
 }
 
+
 .cell-7 .first-text{
-    text-align: center;
     width: 50%;
     max-width: 280px;
+    text-align: center;
     margin: auto;
     padding-top: 31px;
     padding-bottom: 31px;
-
-    font-family: Arvo, sans-serif;
+    
+    font-family: "Arvo", serif;
     font-size: 22px;
     line-height: 32px;
-    font-weight: 400;
-
+    font-weight: 700;
+    
     color: white;
 }
 
 .cell-7 img{
-    width: 655px;
-    position: relative;
-    left: 7%;
+    width: 90%;
+    margin-left: -7%;
+    align-self: flex-start;
 }
 
 .cell-8{
@@ -453,7 +461,7 @@ body{
 
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: Arvo, sans-serif;
+    font-family: "Arvo", serif;
     font-size: 22px;
     line-height: 32px;
     font-weight: 400;
@@ -501,7 +509,7 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
 
-    font-family: Arvo, sans-serif;
+    font-family: "Arvo", serif;
     font-size: 22px;
     line-height: 32px;
     font-weight: 400;
@@ -538,7 +546,7 @@ body{
 
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: Arvo, sans-serif;
+    font-family: "Arvo", serif;
     font-size: 22px;
     line-height: 32px;
     font-weight: 400;
