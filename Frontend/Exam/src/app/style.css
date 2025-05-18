@@ -641,8 +641,16 @@ h6 {
     background-color: #b6b6b6; /* Bootstrap primary blue for active */
 }
 
+.clients .carousel-caption .carousel-slide-text{
+    font-size: medium;
+    color: #858484;
+    margin-top: -25px;
+    margin-bottom: 33px;
+}
+
 .clients .carousel-caption .author{
     font-size: medium;
+    font-weight: 600;
     color: #494848;
 }
 
