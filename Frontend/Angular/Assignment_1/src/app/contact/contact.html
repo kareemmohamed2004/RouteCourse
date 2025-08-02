@@ -1,0 +1,50 @@
+<!-- src/app/contact/contact.component.html -->
+
+<section class="page-section contact" id="contact">
+  <div class="container">
+    <!-- Contact Section Heading -->
+    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">CONATCT SECTION</h2>
+    <!-- Icon Divider -->
+    <div class="divider-custom">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+      <div class="divider-custom-line"></div>
+    </div>
+    <!-- Contact Form -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-xl-7">
+        <form id="contactForm">
+          <!-- Name input -->
+          <div class="mb-5">
+            @if (userName) {
+              <label for="userName" class="text-success">userName :</label>
+            }
+            <input class="form-control" id="userName" type="text" [(ngModel)]="userName" name="userName" placeholder="userName" autocomplete="off" />
+          </div>
+          <!-- Age input -->
+          <div class="mb-5">
+            @if (userAge) {
+              <label for="userAge" class="text-success">userAge :</label>
+            }
+            <input class="form-control" id="userAge" type="text" [(ngModel)]="userAge" name="userAge" placeholder="userAge" />
+          </div>
+          <!-- Email address input -->
+          <div class="mb-5">
+            @if (userEmail) {
+              <label for="userEmail" class="text-success">userEmail :</label>
+            }
+            <input class="form-control" id="userEmail" type="email" [(ngModel)]="userEmail" name="userEmail" placeholder="userEmail" />
+          </div>
+          <!-- Password input -->
+          <div class="mb-5">
+            @if (userPassword) {
+              <label for="userPassword" class="text-success">userPassword :</label>
+            }
+            <input class="form-control" id="userPassword" type="text" [(ngModel)]="userPassword" name="userPassword" placeholder="userPassword" autocomplete="new-password" />
+          </div>
+          <button class="btn btn-primary btn-group-sm" id="submitButton" type="submit">send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,87 @@
+/* src/app/portfolio/portfolio.component.css */
+
+.portfolio {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* Page Section Heading - Dark version */
+.page-section-heading {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 2.25rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Divider Custom Styles - Dark Version */
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2C3E50; /* Dark line */
+  border-radius: 1rem;
+  opacity: 1;
+}
+
+.divider-custom .divider-custom-icon {
+  color: #2C3E50; /* Dark star */
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+/* Portfolio Item Hover Effect */
+.portfolio-item {
+  cursor: pointer;
+  position: relative; /* <-- KEY CHANGE: The parent needs relative positioning */
+  display: block;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.portfolio-item-caption {
+  position: absolute; /* <-- KEY CHANGE: The overlay needs absolute positioning */
+  top: 0;             /* <-- KEY CHANGE: Position at the top */
+  left: 0;            /* <-- KEY CHANGE: Position at the left */
+  width: 100%;        /* <-- KEY CHANGE: Stretch to full width */
+  height: 100%;       /* <-- KEY CHANGE: Stretch to full height */
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9); /* Semi-transparent green */
+}
+
+.portfolio-item-caption:hover {
+  opacity: 1;
+}
+
+.portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+/* Modal Styles */
+.portfolio-modal {
+  z-index: 1050;
+  background-color: rgba(44, 62, 80, 0.9);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-image-wrapper {
+  max-width: 40%;
+  max-height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-image-wrapper img {
+  border-radius: 0.5rem;
+}

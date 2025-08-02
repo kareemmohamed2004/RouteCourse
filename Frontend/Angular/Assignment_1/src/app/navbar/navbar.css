@@ -1,0 +1,44 @@
+/* src/app/navbar/navbar.component.css */
+
+.navbar {
+  background-color: #2C3E50;
+  /* Initial padding and font size */
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  /* Add transition for a smooth effect on all properties */
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  color: #FFFFFF !important;
+  font-size: 2rem;
+  transition: font-size 0.3s ease-in-out;
+}
+
+/* The 'scrolled' class is now responsible for the smaller state */
+.navbar.scrolled {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar.scrolled .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #FFFFFF !important;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #1ABC9C;
+  color: #FFFFFF !important;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,48 @@
+/* src/styles.css */
+
+/* 1. Ensure html and body take up full viewport height */
+html {
+  height: 100%;
+  min-height: 100vh; /* <-- THIS LINE IS KEY TO CONFIRM */
+}
+
+body {
+  min-height: 100vh; /* Ensures body is at least viewport height */
+  margin: 0; /* Remove default body margin */
+  display: flex; /* Make body a flex container */
+  flex-direction: column; /* Stack children vertically */
+  /* Keep your responsive padding-top here to account for the fixed navbar */
+  padding-top: 75px; /* Adjust this to your navbar's height on small screens */
+}
+
+/* Responsive padding-top for navbar */
+@media (min-width: 768px) {
+  body {
+    padding-top: 75px; /* Keep the same for tablets if height is similar */
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 90px; /* Your measured 90px for large screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-top: 90px; /* Keep the same for extra large screens */
+  }
+}
+
+/* 2. Make the main content area grow */
+/* Target the 'main' element directly or use a specific class if you prefer */
+main {
+  flex: 1; /* Shorthand for flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
+  /* This ensures the main content area takes up all available space */
+}
+
+/* Add any other global styles you have */
+
+app-home{
+  height: fit-content;
+}

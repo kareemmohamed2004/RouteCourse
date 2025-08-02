@@ -1,0 +1,40 @@
+/* src/app/footer/footer.component.css */
+
+footer {
+  background-color: #2C3E50; /* Dark background for the main footer section */
+}
+
+.copyright {
+  background-color: #1A252F; /* Even darker background for the copyright section */
+}
+
+/* Custom styling for social media buttons to match the example */
+.btn-social {
+  border-radius: 100%; /* Make them perfectly round */
+  height: 3.25rem;
+  width: 3.25rem;
+  font-size: 1.25rem;
+  line-height: 1.5; /* Adjust line-height to center icon vertically */
+  display: inline-flex; /* Use flexbox to center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn-social:hover {
+  background-color: #1ABC9C; /* Green background on hover */
+  border-color: #1ABC9C; /* Green border on hover */
+  color: #FFFFFF; /* Ensure text/icon color remains white */
+}
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  z-index: 1000; /* Keeps it above other elements */
+}

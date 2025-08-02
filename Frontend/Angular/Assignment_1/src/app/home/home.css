@@ -1,0 +1,65 @@
+/* src/app/home/home.component.css */
+
+.masthead {
+  padding-top: calc(6rem + 75px); /* Adjust for navbar height, 75px for small screens */
+  padding-bottom: 6rem;
+  background-color: #1ABC9C; /* The green background color */
+}
+
+/* Responsive padding for masthead to account for different navbar heights */
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: calc(6rem + 90px); /* Adjust for navbar height, 90px for large screens */
+  }
+}
+
+.masthead-avatar {
+  width: 15rem; /* Adjust size as needed */
+  max-width: 100%;
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 3rem; /* Add some space below the avatar */
+}
+
+.masthead-heading {
+  font-size: 3rem;
+  line-height: 2.75rem;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.masthead-subheading {
+  font-size: 1.5rem;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Divider Custom Styles */
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #FFFFFF; /* White line */
+  border-radius: 1rem;
+  opacity: 1;
+}
+
+.divider-custom .divider-custom-icon {
+  color: #FFFFFF; /* White star */
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+/* Adjust divider color for light background (if needed for other sections) */
+.divider-custom.divider-light .divider-custom-line {
+  background-color: #FFFFFF;
+}
+
+.divider-custom.divider-light .divider-custom-icon {
+  color: #FFFFFF;
+}

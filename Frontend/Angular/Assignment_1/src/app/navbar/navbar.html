@@ -1,0 +1,29 @@
+<!-- src/app/navbar/navbar.component.html -->
+
+<!-- The 'scrolled' class will be added or removed based on the 'isScrolled' property -->
+<nav class="navbar navbar-expand-lg fixed-top" [class.scrolled]="isScrolled">
+  <div class="container">
+    <!-- Navbar Brand/Logo -->
+    <a class="navbar-brand text-white fw-bold fs-2" routerLink="/">START FRAMEWORK</a>
+
+    <!-- Toggler for small screens -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white text-uppercase fw-bold px-3" routerLink="/about" routerLinkActive="active">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white text-uppercase fw-bold px-3" routerLink="/portfolio" routerLinkActive="active">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white text-uppercase fw-bold px-3" routerLink="/contact" routerLinkActive="active">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
